@@ -42,11 +42,12 @@ Okay, now suppose that each cannibal consumes 1% of his body weight per day inst
 Compiling and running
 ---------
 
-ghc --make cannibal
-cannibal small.cnb
+    ghc --make cannibal
+    cannibal small.cnb
+
 Ooh, a solution.
 
-cannibal big.cnb
+    cannibal big.cnb
 Wait for it. This one takes a while.
 
 I wouldn't look to this code for an example of good anything -- I wrote it several years ago while learning Haskell.
