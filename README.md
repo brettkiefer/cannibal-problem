@@ -7,10 +7,10 @@ The 4-person solution is fun to work out without programming.
 
 Four programmers are trapped in the offices of a small software company. Their names and weights (in lbs) are as follows:
 
--Adam 200
--Benjamin 190
--Caleb 180
--Daniel 170
+ - Adam 200
+ - Benjamin 190
+ - Caleb 180
+ - Daniel 170
 
 After a couple of weeks, they have consumed all of the food in the office, and are on the brink of starvation. Naturally, they turn to cannibalism. The bigger people argue that they should get more votes because if it comes down to a melee, they will probably win. How long does each person survive, given the following rules?
 
@@ -23,18 +23,18 @@ After a couple of weeks, they have consumed all of the food in the office, and a
 Extra fun for programers:
 Now, write a program to solve the general problem, and run it for this larger set of people:
 
--Adam 200
--Benjamin 190
--Caleb 180
--Daniel 170
--Ephraim 160
--Frank 150
--Gideon 140
--Hiram 130
--Ichabod 120
--Jacob 110
--Kenan 100
--Lehi 90
+ - Adam 200
+ - Benjamin 190
+ - Caleb 180
+ - Daniel 170
+ - Ephraim 160
+ - Frank 150
+ - Gideon 140
+ - Hiram 130
+ - Ichabod 120
+ - Jacob 110
+ - Kenan 100
+ - Lehi 90
 
 Extra extra fun for programmers:
 Okay, now suppose that each cannibal consumes 1% of his body weight per day instead of one pound. Adapt your solution to this situation.
