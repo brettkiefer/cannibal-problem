@@ -42,6 +42,7 @@ The Code
 ---------
 ghc --make cannibal
 cannibal small.cnb
+Ooh, a solution.
 
 cannibal big.cnb
 Wait for it. This one takes a while.
