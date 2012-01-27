@@ -38,8 +38,10 @@ Lehi 90
 Extra extra fun for programmers:
 Okay, now suppose that each cannibal consumes 1% of his body weight per day instead of one pound. Adapt your solution to this situation.
 
-The Code
+
+Compiling and running
 ---------
+
 ghc --make cannibal
 cannibal small.cnb
 Ooh, a solution.
