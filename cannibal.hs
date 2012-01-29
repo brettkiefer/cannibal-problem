@@ -52,8 +52,8 @@ solveRound lSolvedRound lCannibal
 benefitFrom :: (Cannibal, [(Cannibal, Double)]) -> Cannibal -> Double
 benefitFrom (cannibalToEat, roundWithBenefits) cannibal
 	| isNothing inNext = 0
-	| otherwise = fromJust inNext + (weight cannibalToEat) / sum (map (\p -> (weight (fst p) / 100)) roundWithBenefits) --everyone eats 1% their body weight every day
-	-- | otherwise = fromJust inNext + (weight cannibalToEat) / fromIntegral (length roundWithBenefits) --every eats 1 lb of food per day
+	--	| otherwise = fromJust inNext + (weight cannibalToEat) / sum (map (\p -> (weight (fst p) / 100)) roundWithBenefits) --everyone eats 1% their body weight every day
+	| otherwise = fromJust inNext + (weight cannibalToEat) / fromIntegral (length roundWithBenefits) --every eats 1 lb of food per day
 	where
 		inNext = lookup cannibal roundWithBenefits
 
